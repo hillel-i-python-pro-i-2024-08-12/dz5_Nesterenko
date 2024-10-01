@@ -1,1 +1,4 @@
 faker~=28.4.1
+pre-commit
+ruff
+mypy
