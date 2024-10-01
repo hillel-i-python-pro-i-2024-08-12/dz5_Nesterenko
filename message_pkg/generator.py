@@ -28,5 +28,6 @@ def get_random_message(chance: float) -> str:
     else:
         return "Цього разу не повезло."
 
+
 # Пример использования
 print(get_random_message(0.7))

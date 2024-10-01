@@ -22,6 +22,7 @@
 # if __name__ == "__main__":
 #     main()
 
+
 import argparse
 from message_pkg.generator import get_random_message
 
