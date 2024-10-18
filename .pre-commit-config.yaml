@@ -8,13 +8,13 @@ repos:
 
 
   - repo: https://github.com/charliermarsh/ruff-pre-commit
-    rev: v0.6.7  # Версия Ruff на момент написания
+    rev: v0.6.7
     hooks:
       - id: ruff
         args: ["--fix"]
 
   - repo: https://github.com/pre-commit/mirrors-mypy
-    rev: v1.2.0  # Версия mypy на момент написания
+    rev: v1.2.0
     hooks:
       - id: mypy
-        args: ["--ignore-missing-imports"]  # Измените это, если хотите строгую проверку импортов
+        args: ["--ignore-missing-imports"]
